@@ -9,5 +9,6 @@ module Types
 
     # TODO: remove me
     field :get_meals, resolver: Queries::GetMeals
+    field :get_weekly_menus, resolver: Queries::GetWeeklyMenus
   end
 end
